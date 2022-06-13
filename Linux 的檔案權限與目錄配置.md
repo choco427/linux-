@@ -1,32 +1,28 @@
-#Linux 的檔案權限與目錄配置
-
-### owner		        所有者
-
-### group		        组成员
-
-### others		        其他成员
-
-### /etc/passwd	        保存用户信息
-### /etc/shadow	        保存用户密码
-### /etc/group	        保存用户组
-### ls -al		        列出所有的档案详细权限与属性 (包含隐藏文件)
-### cp		        拷贝档案
-### cd		        变更目录
-### mkdir		        建立目录
-### touch		        建立空档案
-### su		        切换用户(switch user)
-### rm		        删除目录或档楼(remove)
-### cat                     读取档案内容
-### uname                   打印系统信息
-### lsb_release             显示LSB和特定版本的相关信息
-### ls -al 后显示信息,如下：
-### drwxrwxr-x	        档案类型权限
-### 3 		        连结数
-### luoliang 	        档案拥有者
-### luoliang 	        档案所属群组
-### 4096 		        档案大小(bytes)
-### 12月 16 19:08 	        最后修改时间
-### works		        档案名称
+# Linux 的檔案權限與目錄配置
+* owner		        所有者 
+* group		        组成员 
+* others		        其他成员、
+* /etc/passwd	        保存用户信息
+* /etc/shadow	        保存用户密码
+* /etc/group	        保存用户组
+* ls -al		        列出所有的档案详细权限与属性 (包含隐藏文件)
+* cp		        拷贝档案
+* cd		        变更目录
+* mkdir		        建立目录
+* touch		        建立空档案
+* su		        切换用户(switch user)
+* rm		        删除目录或档楼(remove)
+* cat                     读取档案内容
+* uname                   打印系统信息
+* lsb_release             显示LSB和特定版本的相关信息
+* ls -al 后显示信息,如下：
+* drwxrwxr-x	        档案类型权限
+* 3 		        连结数
+* luoliang 	        档案拥有者
+* luoliang 	        档案所属群组
+* 4096 		        档案大小(bytes)
+* 12月 16 19:08 	        最后修改时间
+* works		        档案名称
 
 ### 档案类型权限第一个字符代表档案类型：
 * 当为[ d ]则是目彔
@@ -50,9 +46,6 @@
 * [ w ]代表可写(write)
 * [ x ]代表可执行(execute)
 
-### chgrp		        改变档案所属群组
-### chown		        改变档案拥有者
-### chmod		        改变档案权限
 
 ### Linux目录配置的依据-FHS
 * /                     根目录
