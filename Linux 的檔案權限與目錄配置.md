@@ -1,7 +1,7 @@
 # Linux 的檔案權限與目錄配置
 * owner		        所有者 
 * group		        组成员 
-* others		        其他成员、
+* others		        其他成员
 * /etc/passwd	        保存用户信息
 * /etc/shadow	        保存用户密码
 * /etc/group	        保存用户组
